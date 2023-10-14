@@ -14,6 +14,11 @@ export default defineNitroConfig({
       supportsResponseStreaming: true,
     },
   },
+  routeRules: {
+    "/api/hello": {
+      isr: 60,
+    },
+  },
   publicAssets: [
     {
       baseURL: "/_dist",
