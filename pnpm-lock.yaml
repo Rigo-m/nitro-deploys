@@ -32,6 +32,9 @@ devDependencies:
   ufo:
     specifier: ^1.3.0
     version: 1.3.0
+  unenv:
+    specifier: 1.7.4
+    version: 1.7.4
 
 packages:
 

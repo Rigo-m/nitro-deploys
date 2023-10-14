@@ -21,6 +21,7 @@
     "nitropack": "npm:@rigo-m/nitropack@latest",
     "ofetch": "^1.3.3",
     "prettier": "^3.0.3",
+    "unenv": "1.7.4",
     "ufo": "^1.3.0"
   },
   "packageManager": "pnpm@8.7.6",
