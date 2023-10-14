@@ -1,0 +1,4 @@
+/api/hello
+  Cache-Control: public,max-age=0,must-revalidate
+  Netlify-CDN-Cache-Control: public,max-age=60,must-revalidate
+
