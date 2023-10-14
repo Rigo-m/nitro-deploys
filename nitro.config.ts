@@ -18,6 +18,9 @@ export default defineNitroConfig({
     "/api/hello": {
       isr: 60,
     },
+    "/api/hello-swr": {
+      isr: true,
+    },
   },
   publicAssets: [
     {
