@@ -24,8 +24,8 @@ devDependencies:
     specifier: ^1.20.0
     version: 1.20.0
   nitropack:
-    specifier: npm:@rigo-m/nitropack@^2.6.5
-    version: /@rigo-m/nitropack@2.6.5
+    specifier: npm:@rigo-m/nitropack@^2.6.6
+    version: /@rigo-m/nitropack@2.6.6
   ofetch:
     specifier: ^1.3.3
     version: 1.3.3
@@ -799,8 +799,8 @@ packages:
       '@parcel/watcher-win32-x64': 2.3.0
     dev: true
 
-  /@rigo-m/nitropack@2.6.5:
-    resolution: {integrity: sha512-dqfCLyRVn+NYDhd9Y3/Ae9cBZJGIfKUY5Fd3IBoxh9fRpKvq+bSwi+xh4a/JpVqxlmnGwn3rltq2L3UqftBajA==}
+  /@rigo-m/nitropack@2.6.6:
+    resolution: {integrity: sha512-qyzCWgTJzqGhhuty1fPKqOKkPqZXyx2c9OQBVoLiQrXBWIAzmou6ODY7GU/69nHpm7L+vCnh7KzDay+pjLqrgg==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
