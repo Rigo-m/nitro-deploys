@@ -2,7 +2,7 @@ export default defineEventHandler(async (event) => {
   const query = getQuery(event);
 
   const sleep = async () => {
-    new Promise((resolve) => {
+    return new Promise((resolve) => {
       setTimeout(() => resolve(true), 5000);
     });
   };
