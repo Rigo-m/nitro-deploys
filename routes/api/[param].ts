@@ -8,13 +8,6 @@ export default defineEventHandler(async (event) => {
   };
   await sleep();
 
-  setHeader(event, "Cache-Control", "public,max-age=0,must-revalidate");
-  setHeader(
-    event,
-    "Netlify-CDN-Cache-Control",
-    "public, max-age=3600, s-maxage=3600, must-revalidate",
-  );
-
   return {
     api: "Works",
     query,
