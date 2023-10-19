@@ -15,7 +15,7 @@ export default defineNitroConfig({
     },
   },
   routeRules: {
-    "/api/:param": {
+    "/api/**": {
       isr: 3600,
     },
     "/api/hello-swr": {
