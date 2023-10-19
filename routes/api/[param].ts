@@ -18,6 +18,7 @@ export default defineEventHandler(async (event) => {
   return {
     api: "Works",
     query,
+    param: getRouterParam(event, "param"),
     generatedAt: new Date().toUTCString(),
   };
 });
